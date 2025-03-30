@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Mini_projet</string>
+    <string name="wilaya">La wilaya de Constantine </string>
+
+    <string name="description">
+        this is the description in english u can change the language , chose the language and the theme here :
+    </string>
+
+
+        <!-- Categories -->
+        <string name="category_historical">Historical</string>
+        <string name="category_hotel">Hotel</string>
+        <string name="category_restaurant">Restaurant</string>
+        <string name="category_natural">Natural</string>
+
+
+    <string name="tiddis_city">Tiddis</string>
+    <string name="constantine_city">Constantine</string>
+        <!-- Places -->
+        <string name="constantine_bridge">Constantine Bridge</string>
+        <string name="constantine_bridge_desc">A famous bridge</string>
+        <string name="constantine_bridge_tel">123456789</string>
+
+        <string name="emir_abdelkader_mosque">Emir Abdelkader Mosque</string>
+        <string name="emir_abdelkader_mosque_desc">A stunning Ottoman-style mosque and Islamic university.</string>
+        <string name="emir_abdelkader_mosque_tel">987654321</string>
+
+        <string name="ahmed_bey_palace">Ahmed Bey Palace</string>
+        <string name="ahmed_bey_palace_desc">A 19th-century palace showcasing Islamic architecture.</string>
+
+        <string name="monument_aux_morts">Monument Aux Morts</string>
+        <string name="monument_aux_morts_desc">A memorial with panoramic city views.</string>
+
+        <string name="marriott_constantine">Marriott Constantine Hotel</string>
+        <string name="marriott_constantine_desc">Luxurious hotel with modern amenities.</string>
+        <string name="marriott_constantine_tel">123456789</string>
+
+        <string name="novotel_constantine">Novotel Constantine</string>
+        <string name="novotel_constantine_desc">Stylish hotel near the city center.</string>
+
+        <string name="ibis_constantine">Ibis Constantine</string>
+        <string name="ibis_constantine_desc">Affordable and comfortable hotel.</string>
+
+        <string name="dar_el_founoun">Restaurant Dar El Founoun</string>
+        <string name="dar_el_founoun_desc">Traditional Algerian cuisine in a cultural setting.</string>
+
+        <string name="diaf_dar">Diaf Dar</string>
+        <string name="diaf_dar_desc">Mix of Algerian and Mediterranean dishes.</string>
+
+        <string name="qasar_restaurant">Qasar Restaurant</string>
+        <string name="qasar_restaurant_desc">Famous for local specialties and a cozy ambiance.</string>
+
+        <string name="gorges_tighanimine">Gorges of Tighanimine</string>
+        <string name="gorges_tighanimine_desc">Beautiful canyons with scenic landscapes.</string>
+
+        <string name="oued_rhumel">Oued Rhumel (Rhumel River)</string>
+        <string name="oued_rhumel_desc">Iconic river flowing through the city’s cliffs.</string>
+
+        <string name="tiddis_ruins">Tiddis Ruins</string>
+        <string name="tiddis_ruins_desc">Ancient Roman ruins surrounded by beautiful nature.</string>
+
+
+    <string name="call">call</string>
+    <string name="showin">show in map</string>
+    <string name="drk">Dark mode</string>
+    <string name="lght">Light mode</string>
+    <string name="ar">Arabic</string>
+    <string name="en">English</string>
+
+
+</resources>

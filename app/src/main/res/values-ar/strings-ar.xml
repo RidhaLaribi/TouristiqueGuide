@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Mini_Projet</string>
+
+    <string name="wilaya">ولاية قسنطينة </string>
+
+    <string name="description">
+    هذه هي الوصف باللغة العربية، يمكنك تغيير اللغة واختيار اللغة والثيم هنا:
+</string>
+
+    <string name="tiddis_city">تيديس</string>
+    <string name="constantine_city">Constantine</string>
+    <!-- Categories -->
+        <string name="category_historical">تاريخي</string>
+        <string name="category_hotel">فندق</string>
+        <string name="category_restaurant">مطعم</string>
+        <string name="category_natural">طبيعي</string>
+
+        <!-- Places -->
+        <string name="constantine_bridge">جسر قسنطينة</string>
+        <string name="constantine_bridge_desc">جسر مشهور</string>
+        <string name="constantine_bridge_tel">123456789</string>
+
+        <string name="emir_abdelkader_mosque">مسجد الأمير عبد القادر</string>
+        <string name="emir_abdelkader_mosque_desc">مسجد وجامعة إسلامية رائعة على الطراز العثماني.</string>
+        <string name="emir_abdelkader_mosque_tel">987654321</string>
+
+        <string name="ahmed_bey_palace">قصر أحمد باي</string>
+        <string name="ahmed_bey_palace_desc">قصر من القرن التاسع عشر يعرض العمارة الإسلامية.</string>
+
+        <string name="monument_aux_morts">نصب الشهداء</string>
+        <string name="monument_aux_morts_desc">نصب تذكاري يوفر إطلالات بانورامية على المدينة.</string>
+
+        <string name="marriott_constantine">فندق ماريوت قسنطينة</string>
+        <string name="marriott_constantine_desc">فندق فاخر بمرافق حديثة.</string>
+        <string name="marriott_constantine_tel">123456789</string>
+
+        <string name="novotel_constantine">فندق نوفوتيل قسنطينة</string>
+        <string name="novotel_constantine_desc">فندق أنيق بالقرب من وسط المدينة.</string>
+
+        <string name="ibis_constantine">فندق إيبيس قسنطينة</string>
+        <string name="ibis_constantine_desc">فندق مريح وبأسعار معقولة.</string>
+
+        <string name="dar_el_founoun">مطعم دار الفنون</string>
+        <string name="dar_el_founoun_desc">المأكولات الجزائرية التقليدية في أجواء ثقافية.</string>
+
+        <string name="diaf_dar">مطعم ضياف دار</string>
+        <string name="diaf_dar_desc">مزيج من الأطباق الجزائرية والمتوسطية.</string>
+
+        <string name="qasar_restaurant">مطعم قصر</string>
+        <string name="qasar_restaurant_desc">يشتهر بالتخصصات المحلية والأجواء المريحة.</string>
+
+        <string name="gorges_tighanimine">مضايق تيغانيمين</string>
+        <string name="gorges_tighanimine_desc">أودية جميلة بمناظر خلابة.</string>
+
+        <string name="oued_rhumel">وادي الرمال</string>
+        <string name="oued_rhumel_desc">نهر أيقوني يتدفق عبر منحدرات المدينة.</string>
+
+        <string name="tiddis_ruins">آثار تيديس</string>
+        <string name="tiddis_ruins_desc">آثار رومانية قديمة تحيط بها الطبيعة الخلابة.</string>
+
+
+
+
+
+    <!-- Additional Arabic Translations -->
+    <string name="call">اتصال</string>
+    <string name="showin">عرض على الخريطة</string>
+
+    <string name="drk">الوضع الداكن</string>
+    <string name="lght">الوضع الفاتح</string>
+    <string name="ar">العربية</string>
+    <string name="en">الإنجليزية</string>
+
+
+</resources>
