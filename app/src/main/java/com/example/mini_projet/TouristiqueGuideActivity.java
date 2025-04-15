@@ -32,7 +32,7 @@ public class TouristiqueGuideActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-            getSupportActionBar().setTitle("Constantine");
+            getSupportActionBar().setTitle(getString(R.string.wilaya));
         }
 
         ArrayList<Category> sit=new ArrayList<Category>();
@@ -67,8 +67,6 @@ public class TouristiqueGuideActivity extends AppCompatActivity {
                Intent i = new Intent(TouristiqueGuideActivity.this, Detailsshow.class);
                 i.putExtra("categ", select.getCatg());
                startActivity(i);
-
-
             }
         });
 

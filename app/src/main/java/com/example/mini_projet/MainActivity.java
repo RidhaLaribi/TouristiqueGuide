@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,13 +32,15 @@ public class MainActivity extends AppCompatActivity {
         this.setSupportActionBar(toolbar);
 
 //etudients
+
         ArrayList  names = new ArrayList<String>();
-        names.add("Snowden edd");
-        names.add("Snowden edd");
-        names.add("Snowden edd");
+        names.add("Rida Laribi");
+        names.add("Ramsey Tazekrit");
+        names.add("idir ait-ali");
 
         namesEtd = this.findViewById(R.id.name);
         ArrayAdapter ad=new ArrayAdapter<>(this, R.layout.item,names);
+
 
         namesEtd.setAdapter(ad);
 

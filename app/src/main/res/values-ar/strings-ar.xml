@@ -16,7 +16,7 @@
         <string name="category_natural">طبيعي</string>
 
         <!-- Places -->
-        <string name="constantine_bridge">جسر قسنطينة</string>
+        <string name="constantine_bridge">جسر سيدي مسيد</string>
         <string name="constantine_bridge_desc">جسر مشهور</string>
         <string name="constantine_bridge_tel">123456789</string>
 
@@ -70,6 +70,7 @@
     <string name="lght">الوضع الفاتح</string>
     <string name="ar">العربية</string>
     <string name="en">الإنجليزية</string>
+    <string name="go">اذهب</string>
 
 
 </resources>

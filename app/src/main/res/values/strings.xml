@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Mini_projet</string>
-    <string name="wilaya">La wilaya de Constantine </string>
+    <string name="wilaya">Constantine </string>
 
     <string name="description">
         this is the description in english u can change the language , chose the language and the theme here :
@@ -17,7 +17,7 @@
     <string name="tiddis_city">Tiddis</string>
     <string name="constantine_city">Constantine</string>
         <!-- Places -->
-        <string name="constantine_bridge">Constantine Bridge</string>
+        <string name="constantine_bridge">Sidi M’Cid Bridge</string>
         <string name="constantine_bridge_desc">A famous bridge</string>
         <string name="constantine_bridge_tel">123456789</string>
 
@@ -66,6 +66,7 @@
     <string name="lght">Light mode</string>
     <string name="ar">Arabic</string>
     <string name="en">English</string>
+    <string name="go">go to guide</string>
 
 
 </resources>

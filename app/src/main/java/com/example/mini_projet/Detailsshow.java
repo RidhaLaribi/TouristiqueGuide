@@ -54,7 +54,7 @@ public class Detailsshow extends AppCompatActivity {
                 getString(R.string.constantine_bridge_desc),
                 getString(R.string.constantine_city),
                 getString(R.string.constantine_bridge_tel),
-                R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background
+                R.drawable.bridge1, R.drawable.bridge2, R.drawable.bridge3
         ));
 
         sites.add(new DPlace(

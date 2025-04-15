@@ -1,7 +1,10 @@
 package com.example.mini_projet;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -11,6 +14,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.*;
+import android.*;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,6 +24,8 @@ public class placeDetails extends AppCompatActivity {
 
     ImageView image;
     TextView title,desc,num,posi;
+    Button call,map;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +40,7 @@ public class placeDetails extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-            getSupportActionBar().setTitle("Constantine");
+            getSupportActionBar().setTitle(getString(R.string.wilaya));
         }
 
         ArrayList<DPlace> sites = new ArrayList<>();
@@ -51,7 +59,7 @@ public class placeDetails extends AppCompatActivity {
                 getString(R.string.constantine_bridge_desc),
                 getString(R.string.constantine_city),
                 getString(R.string.constantine_bridge_tel),
-                R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background
+                R.drawable.bridge1, R.drawable.bridge2, R.drawable.bridge3
         ));
 
         sites.add(new DPlace(
@@ -197,6 +205,41 @@ public class placeDetails extends AppCompatActivity {
         num.setText(""+place.getPhone());
         posi.setText(""+place.getLoc());
 
+        call =this.findViewById(R.id.call);
+        map=this.findViewById(R.id.map)  ;
+
+        call.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String phoneNumber = num.getText().toString(); // Replace with your number
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + phoneNumber));
+                startActivity(callIntent);
+            }
+        });
+
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String locationName = title.getText().toString()+" , "+getString(R.string.wilaya); // Replace with your dynamic value
+
+                // Create a geo URI to search
+                Uri mapUri = Uri.parse("geo:0,0?q=" + Uri.encode(locationName));
+
+                // Create an intent
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
+                mapIntent.setPackage("com.google.android.apps.maps"); // Ensure it opens in Google Maps
+
+                // Check if a map app can handle this intent
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                } else {
+                    Toast.makeText(v.getContext(), "No map application found", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
 
 
     }
@@ -204,5 +247,9 @@ public class placeDetails extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         finish();  // Closes the activity when the back button is clicked
         return true;
+    }
+
+    public void callme(View v){
+
     }
 }
