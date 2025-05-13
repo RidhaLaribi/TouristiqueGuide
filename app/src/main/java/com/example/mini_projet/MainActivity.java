@@ -31,12 +31,11 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         this.setSupportActionBar(toolbar);
 
-//etudients
+//etudient
 
         ArrayList  names = new ArrayList<String>();
         names.add("Rida Laribi");
-        names.add("Ramsey Tazekrit");
-        names.add("idir ait-ali");
+
 
         namesEtd = this.findViewById(R.id.name);
         ArrayAdapter ad=new ArrayAdapter<>(this, R.layout.item,names);
@@ -57,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
 
 
         lang=this.findViewById(R.id.lang);

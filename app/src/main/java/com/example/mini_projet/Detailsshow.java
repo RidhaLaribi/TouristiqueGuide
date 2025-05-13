@@ -48,7 +48,8 @@ public class Detailsshow extends AppCompatActivity {
 //        sites.add(new DPlace("Modern", "Pont Sidi M'Cid", "High suspension bridge", "Constantine", "554433221", R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background));
 
         // Historical Places
-        sites.add(new DPlace(
+        sites.add(
+                new DPlace(
                 getString(R.string.category_historical),
                 getString(R.string.constantine_bridge),
                 getString(R.string.constantine_bridge_desc),

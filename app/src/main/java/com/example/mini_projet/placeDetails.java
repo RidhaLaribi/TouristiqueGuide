@@ -76,7 +76,7 @@ public class placeDetails extends AppCompatActivity {
                 getString(R.string.ahmed_bey_palace),
                 getString(R.string.ahmed_bey_palace_desc),
                 getString(R.string.constantine_city),
-                "",
+                "06245612351",
                 R.drawable.ahmd, R.drawable.ahmd2, R.drawable.ahmd3
         ));
 
